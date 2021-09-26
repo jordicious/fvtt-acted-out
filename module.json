@@ -1,0 +1,27 @@
+{
+  "name": "acted-out",
+  "title": "Acted Out - Action Tracking",
+  "description": "Per-Token Action Tracking for DnD5e",
+  "version": "0.01",
+  "author": "jordicious",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
+
+  "scripts": [
+    "tracking.js"
+  ],
+
+  "languages": [{
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }],
+
+  "styles": [
+    "styles/acted-out.css"
+  ],
+
+  "system": ["dnd5e"],
+  "url": "https://github.com/jordicious/fvtt-acted-out",
+  "manifest": "https://github.com/jordicious/fvtt-acted-out/blob/main/module.json"
+}
